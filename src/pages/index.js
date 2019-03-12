@@ -10,9 +10,13 @@ export default () => (
 	}
 }`}
     render={data => (
+
+        <div>
+            <h1>Hail Satan</h1>
         <Image
         fluid={data.imageSharp.fluid}
         />
+        </div>
     )}
     />
 )
